@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página principal -->
   <url>
     <loc>https://colagenoazen.github.io/Medellin/</loc>
     <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
+
+  <!-- Secciones internas -->
+  <url>
+    <loc>https://colagenoazen.github.io/Medellin/#que-es</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://colagenoazen.github.io/Medellin/#beneficios</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://colagenoazen.github.io/Medellin/#como-tomarlo</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://colagenoazen.github.io/Medellin/#blog</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://colagenoazen.github.io/Medellin/#faq</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://colagenoazen.github.io/Medellin/#contacto</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
 </urlset>
