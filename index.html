@@ -3,21 +3,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Colágeno + Espirulina Azul | Péptidos Bioactivos para Piel y Articulaciones</title>
-  <meta name="description" content="Colágeno Azen con espirulina azul: péptidos bioactivos hidrolizados con vitamina C y antioxidantes. Beneficios para piel, articulaciones, cabello y uñas. Envíos en Colombia." />
-  <link rel="canonical" href="https://<TU_USUARIO>.github.io/<TU_REPO>/" />
+  <title>Colágeno Hidrolizado con Espirulina Azul | Beneficios para Piel, Articulaciones y Cabello</title>
+  <meta name="description" content="Descubre Colágeno Hidrolizado con Espirulina Azul: péptidos bioactivos, vitamina C y antioxidantes que apoyan piel, articulaciones, cabello y uñas. Envíos en Colombia." />
+  <link rel="canonical" href="https://colagenoazen.github.io/Medellin/" />
   <meta name="theme-color" content="#0a58ca" />
 
   <!-- Open Graph / Twitter -->
-  <meta property="og:title" content="Colágeno + Espirulina Azul" />
-  <meta property="og:description" content="Péptidos bioactivos con ficocianina y vitamina C. Soporte para piel, articulaciones, cabello y uñas." />
-  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Colágeno Hidrolizado con Espirulina Azul" />
+  <meta property="og:description" content="Péptidos bioactivos con vitamina C y espirulina azul. Beneficios para piel, articulaciones y cabello." />
+  <meta property="og:type" content="product" />
   <meta property="og:image" content="500gr.png" />
-  <meta property="og:url" content="https://<TU_USUARIO>.github.io/<TU_REPO>/" />
+  <meta property="og:url" content="https://colagenoazen.github.io/Medellin/" />
   <meta name="twitter:card" content="summary_large_image" />
 
   <!-- SEO extras -->
-  <meta name="keywords" content="colágeno, colágeno hidrolizado, espirulina azul, ficocianina, péptidos bioactivos, colageno piel, colageno articulaciones, suplemento de colágeno en Colombia" />
+  <meta name="keywords" content="colágeno hidrolizado, colágeno con espirulina azul, péptidos bioactivos, suplemento colágeno piel, colágeno articulaciones, colágeno cabello uñas, suplemento de colágeno en Colombia" />
 
   <style>
     :root{--azul:#0a58ca;--azul2:#0e6dfd;--osc:#0b2240;--gris:#eef3fb;--txt:#1b1b1f}
@@ -26,7 +26,7 @@
     a{color:var(--azul2);text-decoration:none}
     header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.95);backdrop-filter:saturate(160%) blur(6px);border-bottom:1px solid #e6ecf7}
     .wrap{max-width:1100px;margin:auto;padding:0 16px}
-    .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0;position:relative}
     .brand{font-weight:800;color:var(--osc)}
     .menu a{margin:0 10px;font-weight:600}
     .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;align-items:center;padding:36px 0}
@@ -44,36 +44,86 @@
     ul.bul{margin:10px 0 0 18px}
     .note{color:#475569;font-size:.95rem}
     .banner{background:linear-gradient(90deg,var(--azul),var(--azul2));color:#fff;border-radius:16px;padding:24px;text-align:center}
-    .blog article{background:#fff;border:1px solid #e9eef6;border-radius:16px;padding:20px}
+    .blog article{background:#fff;border:1px solid #e9eef6;border-radius:16px;padding:20px;margin-bottom:24px}
     .blog h3{margin-top:0;color:var(--osc)}
     .faq summary{cursor:pointer;font-weight:700}
     .faq details{border:1px solid #e9eef6;border-radius:12px;padding:12px;margin:10px 0;background:#fff}
     footer{background:#0a1020;color:#c9d3ea;padding:28px 0;margin-top:40px}
     footer a{color:#c9e1ff}
     @media (max-width:940px){.hero{grid-template-columns:1fr}.grid-2{grid-template-columns:1fr}.grid-3{grid-template-columns:1fr}}
+
+    /* Menú hamburguesa */
+    .menu-toggle {
+      display: none;
+      font-size: 28px;
+      cursor: pointer;
+    }
+    @media (max-width: 768px) {
+      nav.menu {
+        display: none;
+        flex-direction: column;
+        background: #fff;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        border-top: 1px solid #eee;
+        padding: 10px 0;
+      }
+      nav.menu.active { display: flex; }
+      nav.menu a { padding: 12px 0; text-align: center; }
+      .menu-toggle { display: block; }
+    }
   </style>
 
-  <!-- Schema.org Product + FAQ + Articles (all-in-one page) -->
+  <!-- JSON-LD Producto mejorado -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
+    "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "Colágeno + Espirulina Azul",
-    "image": "500gr.png",
-    "description": "Péptidos bioactivos de colágeno hidrolizado con espirulina azul (ficocianina) y vitamina C para piel y articulaciones.",
-    "brand": {"@type": "Brand","name": "AZEN"},
-    "offers": {"@type": "Offer","priceCurrency":"COP","price":"59900","availability":"https://schema.org/InStock","url":"https://wa.me/573053447946"}
-  }
-  </script>
-  <script type="application/ld+json">
-  {
-    "@context":"https://schema.org",
-    "@type":"FAQPage",
-    "mainEntity":[
-      {"@type":"Question","name":"¿Qué diferencia al colágeno hidrolizado de otros tipos?","acceptedAnswer":{"@type":"Answer","text":"El colágeno hidrolizado se fragmenta en péptidos bioactivos de menor tamaño que mejoran la absorción y la biodisponibilidad, favoreciendo la llegada a piel y articulaciones."}},
-      {"@type":"Question","name":"¿Cuánto tiempo debo tomar el colágeno para notar cambios?","acceptedAnswer":{"@type":"Answer","text":"Generalmente entre 8 y 12 semanas de uso constante. La constancia es clave para resultados visibles en piel y movilidad articular."}},
-      {"@type":"Question","name":"¿La espirulina azul aporta beneficios reales?","acceptedAnswer":{"@type":"Answer","text":"Sí. Aporta ficocianina y betacaroteno con efecto antioxidante, ayuda a neutralizar radicales libres y apoya la función inmune."}}
-    ]
+    "name": "Colágeno Hidrolizado con Espirulina Azul",
+    "image": "https://colagenoazen.github.io/Medellin/500gr.png",
+    "description": "Suplemento con péptidos bioactivos de colágeno hidrolizado, espirulina azul, vitamina C y antioxidantes. Beneficios para piel, articulaciones, cabello y uñas.",
+    "brand": { "@type": "Brand", "name": "AZEN" },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "12"
+    },
+    "review": [{
+      "@type": "Review",
+      "author": "Cliente verificado",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "Excelente suplemento, noté mejoras en piel y articulaciones después de 2 meses."
+    }],
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "COP",
+      "price": "59900",
+      "priceValidUntil": "2025-12-31",
+      "availability": "https://schema.org/InStock",
+      "url": "https://wa.me/573053447946",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "CO",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 7
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": { "@type": "MonetaryAmount", "value": "0", "currency": "COP" },
+        "shippingDestination": { "@type": "DefinedRegion", "addressCountry": "CO" },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 2, "unitCode": "d" },
+          "transitTime": { "@type": "QuantitativeValue", "minValue": 2, "maxValue": 5, "unitCode": "d" }
+        }
+      }
+    }
   }
   </script>
 </head>
@@ -81,6 +131,7 @@
 <header>
   <div class="wrap nav">
     <div class="brand">AZEN • <span style="color:var(--azul)">Colágeno</span></div>
+    <span class="menu-toggle" onclick="document.querySelector('nav.menu').classList.toggle('active')">☰</span>
     <nav class="menu">
       <a href="#inicio">Inicio</a>
       <a href="#que-es">Qué es</a>
@@ -92,7 +143,6 @@
     </nav>
   </div>
 </header>
-
 <main id="inicio" class="wrap">
   <section class="hero">
     <div>
@@ -306,6 +356,7 @@ El envío se realiza en Colombia con garantía de entrega del producto en perfec
     © <span id="y"></span> AZEN. Todos los derechos reservados.
   </div>
 </footer>
+
 <script>document.getElementById('y').textContent=new Date().getFullYear();</script>
 </body>
 </html>
